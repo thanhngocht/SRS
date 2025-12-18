@@ -15,7 +15,7 @@ train:
 test:
   metrics: [mrr, ndcg]
   k: [5, 10, 20]
-  batch_size: 512
+  batch_size: 256
 
 data:
   type: sequential
