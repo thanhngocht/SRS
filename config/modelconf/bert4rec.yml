@@ -19,7 +19,7 @@ test:
 
 data:
   type: sequential
-  name: ml-20m
+  name: all-beauty
 
 model:
   name: bert4rec
