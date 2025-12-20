@@ -22,6 +22,9 @@ class DataHandlerSequential:
         elif configs['data']['name'] == 'all-beauty':
             predir = './datasets/sequential/all-beauty_seq/'
             configs['data']['dir'] = predir
+        elif configs['data']['name'] == 'music':
+            predir = './datasets/sequential/music_seq/'
+            configs['data']['dir'] = predir
             
         self.trn_file = path.join(predir, 'train.tsv')
         self.val_file = path.join(predir, 'test.tsv')
